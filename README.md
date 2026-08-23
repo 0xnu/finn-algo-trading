@@ -2,6 +2,10 @@
 
 A framework for calibrating take-profits to structure-anchored stop-loss distance via VRMR, SLF, R²CTP, OTCC, and PSE, with ten-year walk-forward FX results, a 25 000 USD production-parameter simulation, an FTMO 100K Challenge backtest, and a January to June 2026 session-level study.
 
+> [!WARNING]
+> Disclaimer: I do not have any affiliation with FTMO. This project is purely academic and non-commercial. Trade sessions are simulated for educational purposes only.
+
+
 ### Session-Level Performance (Jan–Jun 2026)
 
 Six-month, 126-trading-day daily-profit decomposition on the 25 000 USD production-parameter account simulation (1 Jan 2026 to 30 Jun 2026).

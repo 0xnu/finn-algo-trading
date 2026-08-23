@@ -1,6 +1,6 @@
 ## Windows EC2 Instance Configuration
 
-To access your FastAPI endpoints from a Windows EC2 instance using the public IP, you need to configure several things. Here's the complete breakdown:
+To access your FastAPI endpoints from a [Windows EC2](https://aws.amazon.com/windows/products/ec2/) instance using the public IP, you need to configure several things. Here's the complete breakdown:
 
 ### 1. **Security Group Configuration (AWS)**
 

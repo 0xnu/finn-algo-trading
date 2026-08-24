@@ -29,6 +29,7 @@ The live signal pipeline runs on AWS EC2, hosts the FastAPI trading API on port 
 | — strategy mix | `signal_v2/strategies.py` | MA Crossover, Momentum Breakout, Mean-Reversion RSI, Trend-Following ATR, Volume-Profile Breakout |
 | — HTTP API (live) | `signal/trading_signals_api.py` + `signal/run_api.py` | FastAPI endpoints `GET /health`, `/session`, `/account`, `/pairs`, `/signals?symbol=EURUSD` |
 | FTMO live harness | `live/finn_ftmo_live_trading.ipynb` | Standalone FTMO execution notebook. Runs classic strategies against FTMO 100K. Separate from the paper's `signal_v2/` reference pipeline. |
+| MT5 setup guide | `signal/MT5.md` | API access enablement, credential configuration via .env or system variables, connection verification, FTMO server name reference, troubleshooting, and security best practices. |
 | Deployment guide | `signal/WINDOWS.md` | Security Group rules, Windows Firewall opening for port 8000, EC2 public-IP verification, curl smoke tests. |
 
 Host architecture on AWS EC2 (Windows):

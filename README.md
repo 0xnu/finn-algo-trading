@@ -50,10 +50,10 @@ This project is licensed under the [MIT License](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Dynamic Take-Profit Calibrated to Real Stop-Loss Distance},
   year         = 2026,
-  version      = {1.0.0},
+  version      = {1.0.1},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.22066503},
-  url          = {https://doi.org/10.5281/zenodo.22066503}
+  doi          = {10.5281/zenodo.22087217},
+  url          = {https://doi.org/10.5281/zenodo.22087217}
 }
 ```
 
